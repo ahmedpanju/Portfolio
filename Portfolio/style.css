@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Intro Page */
+
+.introduction {
+    height: 100vh;
+    background: linear-gradient(#1a0000, #330000);
+    position: relative;
+}
+
+/* Left Navbar */
+
+.navbar-left {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: black;
+    opacity: 0.7;
+    height: 100vh;
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar-left li {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.navbar-left .fa {
+    color: white;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.navbar-left:hover {
+    opacity: 1;
+    width: 15%;
+}
+
+/* Center Header */
+
+header {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Megrim', cursive;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+}
+
+header h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    margin: 0;
+    margin-top: 30px;
+    color: #f2f2f2;
+}
+
+header .arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 30px;
+    margin-top: 100px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    cursor: pointer;
+}
+
+header p {
+    color: #f2f2f2;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* Top Navbar Button */
+
+.navbar-top-button-outer {
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.navbar-top-button-outer-animation {
+    animation-name: navbar-spin;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes navbar-spin {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.navbar-top-button-inner {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 14px;
+    margin-left: 12.5px;
+    margin-top: 12.5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar-top-button-inner:hover {
+    width: 78px;
+    height: 78px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+/* Top Navbar */
+
+.navbar-top-list {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+    margin-right: 200px;
+    display: none;
+}
+
+.navbar-top-list li {
+    float: left;
+    margin-top: 75px;
+}
+
+.navbar-top-list li a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: #f2f2f2;
+    cursor: pointer;
+    margin-left: 50px;
+    
+}
+
+/* About Page */
+
+.about {
+    height: 100vh;
+    background: linear-gradient(#330000, #4d0000);
+}
+
+/* About Page */
+
+.work {
+    height: 100vh;
+    background: linear-gradient(#4d0000, #660000);
+}
+
+/* Contact Page */
+
+.contact {
+    height: 100vh;
+    background: linear-gradient(#660000, #800000);
+}
+
+/* Contact Form */
+
+.contact-form-container {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.contact h1 {
+    margin: 0;
+    font-family: 'Megrim', cursive;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact-form {
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact p {
+    margin: 0;
+    color: #f2f2f2;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.contact input[type=text], input[type=email] {
+    background: none;
+    border: none;
+    border-bottom: 3px solid white;
+    width: 50%;
+    padding: 5px;
+    color: #f2f2f2;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    transition: 0.2s;
+}
+
+.contact input[type=text]:focus, input[type=email]:focus {
+    outline: none;
+    border: 3px solid white;
+}
+
+.contact textarea {
+    width: 80%;
+    height: 100px;
+    border: 2px solid white;
+    color: #f2f2f2;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    background: none;
+    outline: none;
+}
+
+.contact input[type=submit] {
+    cursor: pointer;
+    border: 3px solid white;
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 10px;
+    background: none;
+}
+
+/* Contact Info */
+
+.contact-info-container {
+    width: 40%;
+    margin-right: 5%;
+    float: right;
+    margin-top: 150px;
+}
+
+.contact-info-container h1 {
+    margin: 0;
+}
+
+.contact-info-container li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.contact-info-container li .fa {
+    color: #f2f2f2;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+}
