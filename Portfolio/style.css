@@ -162,15 +162,166 @@ header p {
 .about {
     height: 100vh;
     background: linear-gradient(#330000, #4d0000);
+    position: relative;
 }
 
-/* About Page */
+.about_intro {
+    position: absolute;
+    left: 5%;
+}
+
+.about_intro h1 {
+    color: #f2f2f2;
+    margin: 0;
+    font-size: 150px;
+    font-family: 'Megrim', cursive;
+    width: 45%;
+    text-align: center;
+}
+
+.about_intro h3 {
+    color: white;
+    font-family: Arial;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.about span {
+    color: #ff8d00;
+}
+
+.about_content {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,50%);
+}
+
+.about_content h2 {
+    font-family: Arial;
+    font-size: 30px;
+    color: #ff8d00;
+}
+
+.about_content_like {
+    width: 33.33%;
+    float: left;
+    height: auto;
+    text-align: center;
+}
+
+.about_content_skills {
+    width: 33.33%;
+    float: left;
+    height: auto;
+    text-align: center;
+}
+
+.about_content_icon {
+    width: 33.33%;
+    float: left;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-size: 230px;
+}
+
+.about_content ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.about_content ul li {
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Work Page */
 
 .work {
     height: 100vh;
     background: linear-gradient(#4d0000, #660000);
 }
 
+.work h1 {
+    margin: 0 auto;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Megrim', cursive;
+    border-bottom: 2px solid white;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.work-container {
+    margin: auto;
+    width: 90%;
+    height: 70vh;
+}
+
+/* Work Panels */
+
+#panel {
+    width: 33.33%;
+    height: 70vh;
+    float: left;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#panel .fa {
+    color: white;
+    font-size: 300px;
+    
+}
+
+#panel h4{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+#panel p {
+    color: #f2f2f2;
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.work-container .websites {
+    background-color: rgba(255, 99, 71,0.5);
+}
+
+.work-container .websites:hover {
+    background-color: rgba(255, 99, 71,1);
+}
+
+.work-container .laboratory {
+    background-color: rgba(30, 144, 255,0.5);
+}
+
+.work-container .laboratory:hover {
+    background-color: rgba(30, 144, 255,1);
+}
+
+.work-container .library {
+   background-color: rgba(255, 165, 0,0.5);
+}
+
+.work-container .library:hover {
+   background-color: rgba(255, 165, 0,1);
+}
 /* Contact Page */
 
 .contact {
@@ -272,4 +423,28 @@ header p {
     margin-left: 50px;
     margin-right: 50px;
     cursor: pointer;
+}
+
+/* Footer */
+
+.footer {
+    height: 20vh;
+    background: linear-gradient(#1a0000, #330000);
+    position: relative;
+}
+
+.copyright {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, 5%;)
+}
+
+.copyright p {
+    margin: 0;
+    color: white;
+    font-family: Arial;
 }
