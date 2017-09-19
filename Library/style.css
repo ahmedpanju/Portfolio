@@ -3,19 +3,18 @@ body {
     padding: 0;
 }
 
-/* Navigation Bar Side*/
 .navbar-side {
     width: 20%;
     height: 100%;
     background-color: tomato;
-    position: absolute;
+    position: fixed;
     left: 0;
 }
 
 .navbar-side ul {
     list-style-type: none;
     position: absolute;
-    top: 40%;
+    top: 30%;
 }
 
 .navbar-side ul li {
@@ -41,7 +40,6 @@ body {
     font-size: 50px;
 }   
 
-/* Welcome Page */
 .welcome-page {
     height: 100vh;
 }
@@ -57,7 +55,6 @@ body {
     color: #29a3a3;
 }
 
-/* Code Container */
 .code-container {
     width: 50%;
     height: auto;
@@ -98,6 +95,8 @@ body {
     border: 2px solid red;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
 }
 
 .code-container-text-css {
@@ -106,8 +105,10 @@ body {
     border: 2px solid red;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
 }
-/* Navigation Bar Top*/
+/* Navigation Bar */
 .navbar-top {
     text-align: center;
     width: 80%;
@@ -164,42 +165,29 @@ body {
     background-color: tomato;
 }
 
-/* Contact Forms */
-.form-basic {
-    border-radius: 5px;
-    border: 2px solid black;
-    width: 40%;
+/* Slideshow */
+
+.slideshow {
+    height: 300px;
+    width: 80%;
+    border: 1px solid black;    
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-image: url(city_one.jpeg);
+    background-size: contain;
+    background-repeat: none;
+    position: relative;
 }
 
-label {
-    font-family: 'Roboto', sans-serif;
+.slideshow_button {
+    background: none;
+    border: none;
     font-size: 20px;
-}
-
-input[type=text], input[type=email], textarea {
-    padding: 10px;
-    font-size: 15px;
-    border: 2px solid black;
-    margin-top: 10px;
-}
-
-input[type=text]:focus, input[type=email]:focus {
-    outline: none;
-}
-
-input[type=submit] {
-    font-size: 20px;
-    border: 2px solid black;
-    outline: none;
     cursor: pointer;
-    border-radius: 3px;
-    color: black;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: white;
+    position: absolute;
 }
+
+.slideshow_button left {
+    
+}
+
+
