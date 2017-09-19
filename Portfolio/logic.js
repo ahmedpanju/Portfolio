@@ -28,3 +28,7 @@ $(document).ready(function(){
         }, 1000);
     });
 });
+
+function my_function() {
+    alert("(416)-357-6792");
+}
