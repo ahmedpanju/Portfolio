@@ -1,5 +1,5 @@
 # Portfolio
-My Portfolio Website
+My Responsive Portfolio Website
 
 # Features: 
 * My web-design projects
@@ -7,5 +7,4 @@ My Portfolio Website
 * Side-projects experimenting with AI 
 
 # Next-Steps:
-* Fully responsive design 
 * Completion of library and AI page 
