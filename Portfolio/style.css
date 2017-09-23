@@ -448,3 +448,71 @@ header p {
     color: white;
     font-family: Arial;
 }
+
+@media only screen and (max-width: 700px) {
+    .navbar-left {
+        display: none;    
+    }
+    
+    header {
+        top: 0;
+    }
+    
+    .about_intro h1 {
+        font-size: 100px;
+    }
+    
+    .about_intro h3 {
+        font-size: 30px;
+    }
+    
+    .about_content {
+        top: 12%;
+    }
+    
+    .about_content_like {
+        position: relative;
+        float: left;
+    }
+    
+    .about_content_skills {
+        position: relative;
+        float: right;
+        margin-right: 50px;
+    }
+    
+    .about_content_icon {
+        display: none;
+    }
+    
+    .work h1 {
+        font-size: 50px;
+    }
+    
+    #panel {
+        float: none;
+        width: 90%;
+        height: 40%;
+    }
+    
+    #panel i {
+        display: none;
+    }
+    
+    #panel h4 {
+        font-size: 20px;
+    }
+    
+    #panel p {
+        font-size: 15px;
+    }
+    
+    .contact-form-container {
+        display: none;
+    }
+    
+    .contact-info-container {
+        margin: 0;
+        width: 100%;
+    }
+}
